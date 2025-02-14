@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(205, 175, 175);
+    margin:4em;
+}
+h1{
+   font-family: "Bodoni Moda SC", serif;
+    font-size: 2.5rem;
+    color: rgb(109, 49, 49);
+    font-weight:normal;
+    letter-spacing: 0.03em;
+}
+h2{
+    font-family:"Bodoni Moda SC", serif;
+    font-size: 2rem;
+    color:  rgb(147, 62, 62);
+    font-weight:bold;
+    text-align: center;
+    margin-top:2rem;
+}
+h3{
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: bold;
+    color: rgb(147, 62, 62);
+    background-color: rgba(117, 48, 48, 0.365);
+}
+p{
+    font-family: "Bodoni Moda", serif;
+    text-indent: .05rem;
+    letter-spacing:0.02rem;
+    color:rgb(51, 10, 10);
+   
+}
+ol{
+    font-family: "Bodoni Moda", serif;
+    color:rgb(51, 10, 10); 
+}
+

@@ -1,0 +1,134 @@
+body{
+background-color:rgb(211, 228, 202);
+}
+.card {
+    padding: 1.5rem;
+    background-color:rgb(149, 164, 142);
+    border-radius: 2rem;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+.card__title {
+    color:rgb(80, 93, 73);
+    font-size: 4rem;
+
+}
+.card__title:hover{
+    color:rgb(217, 217, 217)
+}
+.card__excerpt {
+    padding:1rem;
+    color:rgb(51, 61, 47);
+    text-align:center;
+    font-size: 1.3rem;
+}
+.card__image {
+aspect-ratio: 16/9;
+object-fit:contain;
+margin:1rem;
+}
+.card__home{
+    font-size: 0.8rem;
+    background-color:rgb(80, 93, 73);
+    display:block;
+    border-radius:40px;
+    text-align:center;
+    width:20%;
+    padding:.5rem;
+    transition: background-color, 1s, ease-in-out;
+    filter: drop-shadow(8px 8px 10px gray);
+
+
+   
+}
+.card__home:hover{
+    background-color:rgb(55, 63, 50);
+}
+.card__home:active{
+
+}
+.card__more {
+    display:block;
+    text-align:center;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin:auto;
+    border-radius: 40px;
+    background-color:rgb(80, 93, 73);
+    color:rgb(51, 61, 47);
+    transition: background-color, 1s, ease-in-out;
+    width:50%;
+    filter: drop-shadow(8px 8px 10px rgb(47, 47, 47));
+    
+
+}
+.card__more:hover {
+background-color:rgb(44, 50, 40);
+}
+.card__more:active {
+
+}
+ 
+
+
+@media screen and (min-width: 1024px) {
+    body{
+        background-color:rgb(220, 214, 201);
+        }
+  .card {
+    background-color:rgb(182, 171, 149);
+  }
+  .card__title {
+    font-size: 4.3rem;
+    color:rgb(110, 98, 73);
+    
+  }
+  .card__title:hover{
+    color:rgb(217, 217, 217)
+}
+  .card__excerpt {
+    font-size: 1.8rem;
+    color: rgb(44, 38, 27);
+    text-align:center;
+  }
+  .card__image {
+
+  }
+
+  .card__home{
+    color:rgb(44, 38, 27);
+    background-color:rgb(110, 98, 73);
+    transition: background-color, 1s, ease-in-out;
+    filter: drop-shadow(8px 8px 10px gray);
+    font-size:1.2rem;
+    width:20%;
+  }
+  .card__home:hover{
+    background-color:rgb(79, 74, 62);
+  }
+  .card__more {
+    display:block;
+    text-align:center;
+    font-size:1.8rem;
+    padding: 1rem;
+    margin:auto;
+    background-color:rgb(110, 98, 73);
+    color:rgb(68, 58, 42);
+    transition: background-color, 1s, ease-in-out;
+    width:50%;
+    filter: drop-shadow(8px 8px 10px gray);
+    
+  }
+  .card__more:hover {
+    background-color:rgb(69, 64, 52);
+  }
+  .card__more:active {}
+}
+
+/* You can leave everything below as is — we'll explain flexbox in a later lecture! */
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 8vw;
+}
